@@ -68,3 +68,10 @@ git Bash 常用命令
 
 　　git checkout filename
 ---转载地址：https://www.cnblogs.com/zhaoatian/p/11677530.html
+
+
+git修改签名
+ git config --global user.name [用户名]
+ git config --global user.email [用户邮箱]
+ 配置好后运行 cat ~/.gitconfig 可查看配置是否生效
+ 使用GUI图形界面操作时点击《Sign Off》可快速把签名信息填写到commit信息中
